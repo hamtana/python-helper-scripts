@@ -49,7 +49,6 @@ def require_env(name):
         )
     return value
 
-# Non-secret config — fine to leave as plain values, or override via env too
 JIRA_BASE_URL = os.environ.get("JIRA_BASE_URL")
 JIRA_PROJECT  = os.environ.get("JIRA_PROJECT")
 SMTP_SERVER   = os.environ.get("SMTP_SERVER")
